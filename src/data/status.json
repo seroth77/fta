@@ -1,0 +1,149 @@
+{
+  "blessed": {
+    "description": "You have proven yourself virtuous and on the side of the Light. Gain +5 Might and <i>ABSORPTION</i> 1",
+    "ability": {
+      "might": 5,
+      "absorption": 1
+    }
+  },
+  "bloodlust": {
+    "description": "+2 Damage, -2 SPEECH, -2 FAITH and -3 Max Vita. Allies receive -1 SPEECH due to your foul presence. Receive an extra attack in encounters (Claws/1d4 damage). If killed, become a Vampire, attack your allies until you are slain, then go to Limbo.",
+    "resist": "faith",
+    "ability": {
+      "damage": 2,
+      "speech": -2,
+      "faith": -2,
+      "vita": -3,
+      "allies": {
+        "speech": -1
+      }
+    }
+  },
+  "brave": {
+    "description": "Your bravery transcends that of normal folk. Gain +1 <i>NERVE</i> and +1 Damage, allowing you to more easily purge the darkness from the world",
+    "ability": {
+      "nerve": 1,
+      "damage": 1
+    }
+  },
+  "cursed": {
+    "description": "You have been afflicted by accursed misfortune. Your Max Vita is reduced by 4 and you receive -1 to all skill checks.",
+    "resist": "occult",
+    "ability": {
+      "skill": -1,
+      "vita": -4
+    }
+  },
+  "deranged": {
+    "description": "Your mental control has been smashed, causing you to lose all focus. You cannot use Abilities that require Power Points. You cannot use Prayers or Rituals",
+    "resist": "awareness",
+    "ability": {
+      "disable": true
+    }
+  },
+  "ethereal": {
+    "description": "You are balanced between this world and the next, granting you ABSORPTION 2 vs. corporeal (non-ETHEREAL) foes and SNARES. Full damage to ETHEREAL foes. Ignore Stride penalties.",
+    "ability": {
+      "absorption": 2
+    }
+  },
+  "faithful": {
+    "description": "Your devout nature gives you the strength of will to prevail against those rallied against you! Gain +1 FAITH and +1 OCCULT.",
+    "ability": {
+      "faith": 1,
+      "occult": 1
+    }
+  },
+  "favored": {
+    "description": "Your good deeds have made an impression on the powers beyond the veil. You are granted +3 Max Vita and +1 to all skill checks.",
+    "ability": {
+      "vita": 3,
+      "skill": 1
+    }
+  },
+  "fortified": {
+    "description": "Your internal fortitude has proven effective against the evil shrouding the land. Gain +5 Defense and immunity to Infection.",
+    "ability": {
+      "defense": 5,
+      "immunity": "infection"
+    }
+  },
+  "fractured": {
+    "description": "Your body has been broken, impeding your fight against evil. Receive -10 Defense. You may only use one HAND item slot",
+    "resist": "trickery",
+    "ability": {
+      "defense": -10,
+      "dual-wield": false
+    }
+  },
+  "immobilized": {
+    "description": "The forces around you prohibit your movement. Receive -10 Might. Pass ECOLOGY 5 at the start of each round or your Stride becomes 0. This status ends when combat is over.",
+    "resist": "trickery",
+    "ability": {
+      "might": -10
+    }
+  },
+  "lucky": {
+    "description": "It seems that luck favors the foolish, and those who risk much to achieve their goals. Gain +1 TRICKERY and +1 to all search rolls.",
+    "ability": {
+      "trickery": 1,
+      "search": 1
+    }
+  },
+  "lycanthropic": {
+    "description": "+1 Damage, +1 Stride. Receive half of coin awards. Receive an extra attack during encounters (Bite/1d4 damage). If a Moon icon appears, roll d10. 1-9, skirmish with the group with a skirmish counter of 1. On 0, become a Werewolf and skirmish to the death!",
+    "resist": "occult",
+    "ability": {
+      "damage": 1,
+      "stride": 1
+    }
+  },
+  "perceptive": {
+    "description": "Your keen eyes do not miss much, even in this land blanketed in perpetual gloom. Receive +1 AWARENESS and ignore Darkness penalties.",
+    "ability": {
+      "awareness": 1
+    },
+    "immunity": "darkness"
+  },
+  "possessed": {
+    "description": "Your possessed with a demonic presence. While adventuring and during combat, allies within AURA 1 of you lose 1 Vita at the start of each round.",
+    "resist": "faith",
+    "ability": {
+      "aura": 1,
+      "vita": -1
+    }
+  },
+  "respected": {
+    "description": "You have proven your willingness to stand up for the downtrodden of this land. Gain +1 SPEECH and +1 TRICKERY. *See The Wanted Condition.",
+    "ability": {
+      "speech": 1,
+      "trickery": 1
+    }
+  },
+  "sickened": {
+    "description": "A foul malaise has stricken you, reducing your effectiveness in combat. In an encounter, roll damage dice twice and take the worst result.",
+    "resist": "ecology"
+  },
+  "spooked": {
+    "description": "Your confidence has been shattered. Receive -5 Might and -1 NERVE. Pass NERVE 5 at the end of any combat (one attempt each combat) to remove this status.",
+    "resist": "nerve",
+    "ability": {
+      "might": -5,
+      "nerve": -1
+    }
+  },
+  "swift": {
+    "description": "You are filled with a sense of urgency fueled by your desire to put a stop to the afflictions plaguing the land. Gain +1 Stride and +5 Defense.",
+    "ability": {
+      "stride": 1,
+      "defense": 5
+    }
+  },
+  "transformed": {
+    "description": "Your form has become unstable, morphing into strange mutations. You lose 1 HAND slot and cannot perform skill checks. If forced to make a skill check, you automatically fail.",
+    "resist": "occult",
+    "ability": {
+      "skill": false
+    }
+  }
+}

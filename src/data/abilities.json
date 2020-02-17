@@ -1,0 +1,86 @@
+[
+  {
+    "active": true,
+    "character": "telepath",
+    "effects": "Crush the brain matter of a foe! Inflict 1d4 Damage and force them to lose a turn on a d6: 6+. /r/n Ignores ABSORPTION. In a skirmish, drop a skirmish counter by 1.",
+    "id": "AB#FC09",
+    "keywords": ["psychic"],
+    "limit": "once per round",
+    "name": "Psychic Implosion",
+    "power_cost": 1,
+    "type": "ranged",
+    "use": "your turn"
+  },
+  {
+    "active": false,
+    "character": "archeologist",
+    "effects": "When you use a consumable, instead of discarding it, pass ARCHEOLOGY 6 to keep the Item or token by placing it on this card. It can be used once more before it is discarded. Only one Item at a time can be placed on this card.",
+    "id": "AB#FC04",
+    "keywords": ["explore", "cook"],
+    "limit": null,
+    "name": "Iconographer",
+    "power_cost": 2,
+    "type": null,
+    "use": "your turn"
+  },
+  {
+    "active": true,
+    "character": "archeologist",
+    "effects": "Deal an additional 1d4 Damage on a hit with a whip-type weapon.",
+    "id": "AB#FC03",
+    "keywords": ["explore"],
+    "limit": "once per round",
+    "name": "Crack the Whip",
+    "power_cost": 1,
+    "type": null,
+    "use": "your turn"
+  },
+  {
+    "active": true,
+    "character": "exorcist",
+    "effects": "Restore 4 Vita to yourself or an adjacent ally. Usable during a skirmish.",
+    "id": "AB#FC08",
+    "keywords": ["holy"],
+    "limit": "unlimited",
+    "name": "Purification",
+    "power_cost": 1,
+    "type": "melee",
+    "use": "anytime"
+  },
+  {
+    "active": true,
+    "character": "exorcist",
+    "effects": "Inflict 1d6 Damage to any one Demonic, Spirit or Undead creature.",
+    "id": "AB#FC07",
+    "keywords": ["holy"],
+    "limit": "once per round",
+    "name": "Blessing of the Cross",
+    "power_cost": 1,
+    "type": "ranged",
+    "use": "your turn"
+  },
+  {
+    "active": true,
+    "character": "any",
+    "effects": "All characters gain +5 Defense for the current encounter or skirmish.",
+    "id": "AB#FC34",
+    "keywords": ["holy"],
+    "limit": "once per fight",
+    "name": "Halo",
+    "power_cost": 1,
+    "type": null,
+    "use": "your turn"
+  },
+  {
+    "active": true,
+    "character": "any",
+    "effects": "You land a punishing blow against your foe, dealing 1d6 Damage. If the result was 6, punch again to cause an additional 1d6 Damage. Repeat until the result isn't 6.",
+    "id": "AB#FC41",
+    "keywords": ["explore", "fierce", "military"],
+    "limit": "once per round",
+    "name": "Punishment",
+    "power_cost": 2,
+    "type": "melee",
+    "use": "your turn"
+  }
+]
