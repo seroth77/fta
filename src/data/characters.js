@@ -1,4 +1,4 @@
-{
+const characters = {
   "arcanist": {
     "ability": "Resist the Change: You have created powerful wards against the dark magic afflicting the land. You can never be <i>TRANSFORMED</i>",
     "bonus": 2,
